@@ -33,8 +33,6 @@ public:
             temp->next=newnode;
             temp=temp->next;
         }
-        return l->next;
-
-        
+        return l->next;   
     }
 };
